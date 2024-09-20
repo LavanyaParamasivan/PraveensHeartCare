@@ -1,0 +1,139 @@
+.footer_bg{
+background-color:var( --color-footer) ;
+height: 50vh;
+width: 100%;
+margin-top: 2rem;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+.consultation{
+ display: flex;
+ align-content: center;
+ justify-content: space-between;
+ padding-left:250px;
+ padding-top: 6rem;
+
+
+}
+.consultation p{
+    font-family:var(--font-family);
+    color:var(--color-bg);
+    line-height: 1.5rem;
+    font-weight: 500;
+    text-align: center ;
+}
+.map_google,#map {
+    height: 45vh;
+    width: 55%;
+    margin-top: 0.5rem;
+    margin-left: 5rem;
+    border-radius: 0.5rem;
+  }
+  @media screen and (max-width: 500px) {
+    .footer_bg{
+        background-color:var( --color-footer) ;
+        height: 80vh;
+        width: 100%;
+   
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        }
+        .consultation{
+            display: flex;
+            align-content: center;
+            justify-content: space-between;
+            padding-left:8rem;
+            padding-top: 6rem;
+           
+           
+           }
+           .consultation p{
+               font-family:var(--font-family);
+               color:var(--color-bg);
+               line-height: 1.5rem;
+               font-weight: 500;
+               text-align: center ;
+           }
+           .map_google,#map {
+            height: 30vh;
+            width: 80%;
+            margin-bottom: 10rem;
+            margin-left: 2.3rem;
+            border-radius: 0.5rem;
+          }
+  }
+  @media screen and (max-width: 800px) {
+    .footer_bg{
+        background-color:var( --color-footer) ;
+        height: 80vh;
+        width: 100%;
+     
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        }
+        .consultation{
+            display: flex;
+            align-content: center;
+            justify-content: space-between;
+            padding-left:8rem;
+            padding-top: 6rem;
+           
+           
+           }
+           .consultation p{
+               font-family:var(--font-family);
+               color:var(--color-bg);
+               line-height: 1.5rem;
+               font-weight: 500;
+               text-align: center ;
+           }
+           .map_google,#map {
+            height: 30vh;
+            width: 80%;
+            margin-bottom: 10rem;
+            margin-left: 2.3rem;
+            border-radius: 0.5rem;
+          }
+  }
+  @media screen and (max-width: 900px) {
+    .footer_bg{
+        background-color:var( --color-footer) ;
+        height: 80vh;
+        width: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        }
+        .consultation{
+            display: flex;
+            align-content: center;
+            justify-content: space-between;
+            padding-left:8rem;
+            padding-top: 6rem;
+           
+           
+           }
+           .consultation p{
+               font-family:var(--font-family);
+               color:var(--color-bg);
+               line-height: 1.5rem;
+               font-weight: 500;
+               text-align: center ;
+           }
+           .map_google,#map {
+            height: 30vh;
+            width: 80%;
+            margin-bottom: 10rem;
+            margin-left: 2.3rem;
+            border-radius: 0.5rem;
+          }
+  }

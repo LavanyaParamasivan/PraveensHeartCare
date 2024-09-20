@@ -1,0 +1,123 @@
+.health__navbar{
+    padding: 2rem 8rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+}
+.health__logo{
+    margin-right: 2rem;
+}
+.heading{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.health__logo img{
+width: 130px;
+height: 130px;
+}
+.health__container{
+    display: flex;
+    flex-direction: row;
+}
+.health__container__address{
+    display:flex;
+    align-items: center ;
+    justify-items: flex-end;
+}
+.health__container p{
+    color:var(--color-text);
+    font-family: var( --font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    margin :0 2rem;
+}
+.gmail_txt{
+    text-align: center;
+}
+@media screen  and (max-width:1050px){
+    .health__container p{
+        color:var(--color-text);
+        font-family: var( --font-family);
+        font-weight: 100;
+        font-size: 15px;
+        line-height: 20px;
+        margin :0 1rem;
+    }
+    .health__logo img{
+        width: 110px;
+        height: 110px;
+        }
+        .health__logo{
+            margin: 0rem;
+            padding: 0rem;
+        }
+        .health__navbar{
+            padding: 2rem 6rem;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .health__container{
+            display: flex;
+            flex-direction: row;
+        } 
+}
+@media screen  and (max-width:850px){
+    .health__container p{
+        color:var(--color-text);
+        font-family: var( --font-family);
+        font-weight: 100;
+        font-size: 12px;
+        line-height: 20px;
+        margin :0 1rem;
+    }
+    .health__logo img{
+        width: 70px;
+        height: 70px;
+        }
+        .health__logo{
+            margin: 0rem;
+            padding: 0rem;
+        }
+        .health__navbar{
+            padding: 2rem 4rem;
+    
+        }
+        .health__container{
+            display: flex;
+            flex-direction: row;
+        }
+  }
+  @media screen  and (max-width:550px){
+    .health__container p{
+        color:var(--color-text);
+        font-family: var( --font-family);
+        font-weight: 50;
+        font-size: 7px;
+        line-height: 12px;
+        margin :0 0rem;
+    }
+    .health__logo img{
+        width: 55px;
+        height: 55px;
+        }
+        .health__logo{
+            margin: 0rem 1rem;
+            padding: 0rem 0rem;
+        }
+        .health__navbar{
+            padding: 2rem ;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .health__container{
+            display: flex;
+            flex-direction: row;
+        }
+     
+  }
