@@ -1,0 +1,19 @@
+.health_img{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:1rem;
+   
+   }
+   .health_img img{
+       width: 80%;
+       height:20% !important; 
+       border-radius: 1rem; 
+   }
+   .back_btn{
+    color:var( --color-button);
+    margin-left:9rem;
+    text-decoration-line: underline;
+   
+   }

@@ -5,3 +5,4 @@ export {default as Feedback} from './feedback/Feedback';
 export {default as Newsandevents} from './newsandevents/Newsandevents';
 export {default as Footer} from './footer/Footer';
 export {default as Appointment} from './appointment/Appointment';
+export {default as Appointmentform} from './appointmentform/Appointmentform';

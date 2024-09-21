@@ -1,13 +1,19 @@
 import React from 'react';
 import about from '../../assets/about.jpg';
-import '../about/about.css'
+import '../about/about.css';
+import { useNavigate } from 'react-router-dom';
+
 
 const About = () => {
+  const navigate = useNavigate();
   return (
   
 <div>
 <div className='health__about__content-btn'>
-    <button type="button" className='health_btn'>Book Appointment</button>
+
+  <button  className='health_btn' onClick={() => navigate("/appointment")}>Book Appointment</button>
+
+    
 
       </div>
       <div className='health_img'>
